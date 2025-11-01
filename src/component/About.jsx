@@ -141,12 +141,13 @@ export default function About() {
         <Box
           sx={{
             borderRadius: "20px",
-            position: "absolute",
+            position: { xs: "static", md: "absolute" },
             top: "75%",
             left: "-50px",
             zIndex: 100,
             bgcolor: "primary.main",
-            p:{xs:1.25 , md:2.5}
+            p: { xs: 1.25, md: 2.5 },
+            mt: { xs: 2, md: 0 }
           }}
         >
           <Typography variant="body1">10+ year of experince</Typography>

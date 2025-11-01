@@ -5,6 +5,8 @@ import Skills from "../component/Skills";
 import Service from "../component/Service";
 import Portfolio from "../component/Portfolio";
 import News from "../component/News";
+import Contact from "../component/Contact";
+import GetTouch from "../component/GetTouch";
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
       <Service/>
       <Portfolio/>
       <News/>
+      <Contact/>
+      <GetTouch/>
     </>
   );
 }
