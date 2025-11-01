@@ -10,7 +10,7 @@ export default function Service() {
       sx={{
         px: { xs: 2, md: 10 },
         py: { xs: 3, md: 5 },
-        
+
       }}
     >
       <Typography color="primary" variant="h6">
@@ -25,14 +25,18 @@ export default function Service() {
       </Typography>
       {/* service gallarey */}
       <Box sx={{
-        display:"flex",
-        flexWrap:"wrap",
-        gap:2
+        display: "flex",
+        flexWrap: "wrap",
+        gap: 2,
+        py: 1,
+        px: 2
       }}>
-        <Box  sx={{
-         flex:{ xs:"100%",
-          sm:"45%",
-          md:"30%"}
+        <Box sx={{
+          flex: {
+            xs: "100%",
+            sm: "45%",
+            md: "30%",
+          }
         }}>
           <IconButton sx={{ color: "primary.main" }}>
             <WebhookIcon />
@@ -40,82 +44,92 @@ export default function Service() {
           <Typography variant="body2" color="secondary">
             web development
           </Typography>
-          <Typography variant="body2" color="secondary">  
+          <Typography variant="body2" color="secondary">
             Lorem ipsum dolor sit amet.
           </Typography>
         </Box>
         <Box sx={{
-          flex:{ xs:"100%",
-          sm:"45%",
-          md:"30%"}
+          flex: {
+            xs: "100%",
+            sm: "45%",
+            md: "30%"
+          }
         }}>
           <IconButton sx={{ color: "primary.main" }}>
-             <BrushIcon />
+            <BrushIcon />
           </IconButton>
           <Typography variant="body2" color="secondary">
             Ui/Ux Design
           </Typography>
-          <Typography variant="body2" color="secondary">  
+          <Typography variant="body2" color="secondary">
             Lorem ipsum dolor sit amet.
           </Typography>
         </Box>
         <Box sx={{
-         flex:{ xs:"100%",
-          sm:"45%",
-          md:"30%"}
+          flex: {
+            xs: "100%",
+            sm: "45%",
+            md: "30%"
+          }
         }}>
           <IconButton sx={{ color: "primary.main" }}>
-             <WebhookIcon />
+            <WebhookIcon />
           </IconButton>
           <Typography variant="body2" color="secondary">
             Apps development
           </Typography>
-          <Typography variant="body2" color="secondary">  
+          <Typography variant="body2" color="secondary">
             Lorem ipsum dolor sit amet.
           </Typography>
         </Box>
         <Box sx={{
-          flex:{ xs:"100%",
-          sm:"45%",
-          md:"30%"}
+          flex: {
+            xs: "100%",
+            sm: "45%",
+            md: "30%"
+          }
         }}>
           <IconButton sx={{ color: "primary.main" }}>
-             <WebhookIcon />
+            <WebhookIcon />
           </IconButton>
           <Typography variant="body2" color="secondary">
             Apps development
           </Typography>
-          <Typography variant="body2" color="secondary">  
+          <Typography variant="body2" color="secondary">
             Lorem ipsum dolor sit amet.
           </Typography>
         </Box>
         <Box sx={{
-         flex:{ xs:"100%",
-          sm:"45%",
-          md:"30%"}
+          flex: {
+            xs: "100%",
+            sm: "45%",
+            md: "30%"
+          }
         }}>
           <IconButton sx={{ color: "primary.main" }}>
-             <WebhookIcon />
+            <WebhookIcon />
           </IconButton>
           <Typography variant="body2" color="secondary">
             Apps development
           </Typography>
-          <Typography variant="body2" color="secondary">  
+          <Typography variant="body2" color="secondary">
             Lorem ipsum dolor sit amet.
           </Typography>
         </Box>
         <Box sx={{
-         flex:{ xs:"100%",
-          sm:"45%",
-          md:"30%"}
+          flex: {
+            xs: "100%",
+            sm: "45%",
+            md: "30%"
+          }
         }}>
           <IconButton sx={{ color: "primary.main" }}>
-             <WebhookIcon />
+            <WebhookIcon />
           </IconButton>
           <Typography variant="body2" color="secondary">
             Apps development
           </Typography>
-          <Typography variant="body2" color="secondary">  
+          <Typography variant="body2" color="secondary">
             Lorem ipsum dolor sit amet.
           </Typography>
         </Box>

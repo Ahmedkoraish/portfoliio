@@ -34,6 +34,7 @@ export default function Skills() {
             p: "15px",
             mt: "5px",
             bgcolor: "#191919",
+            borderRadius:2
           }}
         >
           <Typography variant="body2" color="primary">
@@ -93,6 +94,7 @@ export default function Skills() {
             p: "15px",
             mt: "5px",
             bgcolor: "#191919",
+            borderRadius:2
           }}
         >
           <Typography variant="body1" color="secondary">
@@ -161,6 +163,7 @@ export default function Skills() {
             p: "15px",
             mt: "5px",
             bgcolor: "#191919",
+            borderRadius:2
           }}
         >
           <Typography variant="body2" color="primary">
